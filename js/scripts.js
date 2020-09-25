@@ -20,7 +20,7 @@
     parent = document.querySelector('.header');
 
     header = '<div class="container header__container"><div class="header__logo">';
-    header += '<a href="index.html">';
+    header += '<a href="/">';
     header += '<img src="images/logo-main.jpg" alt="First Dance Thame Logo" class="header__logo--img" />';
     header += '</a>';
     header += '</div>';
@@ -28,7 +28,7 @@
     header += '<div class="header__right">';
     header += '<a href="about" class="header__nav--item">About</a>';
     header += '<a href="classes" class="header__nav--item">Classes</a>';
-    header += '<a href="timetablel" class="header__nav--item">Timetable</a>';
+    header += '<a href="timetable" class="header__nav--item">Timetable</a>';
     header += '<a href="location" class="header__nav--item">Location</a>';
     header += '<a href="contact" class="header__nav--item">Contact</a>';
     header += '<div class="header__social">';
