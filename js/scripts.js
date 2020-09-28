@@ -82,6 +82,12 @@
     footer += '<a class="header__social--link" href="mailto:firstdancethame@gmail.com">firstdancethame@gmail.com</a>';
     footer += '</div>';
     footer += '</div>';
+		footer += '<div class="footer__intouch--item anchor">';
+    footer += '<i class="fas fa-envelope"></i>';
+    footer += '<div class="footer__intouch--main">';
+    footer += '<a class="header__social--link" href="https://www.facebook.com/firstdancelongcrendon" target="_blank"><i class="fab fa-facebook-f"></i></a>';
+    footer += '</div>';
+    footer += '</div>';
     footer += '</div>';
     footer += '</div>';
     footer += '<div class="footer__copy">';
