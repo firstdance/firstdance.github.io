@@ -1,9 +1,5 @@
 User-agent: *
 
-Allow: /
+Allow: /*.html$
 
-Disallow:
-/css/styles.css
-/js/scripts.js
-/js/forms.js
 Sitemap: https://www.firstdanceclasses.co.uk/sitemap.xml
