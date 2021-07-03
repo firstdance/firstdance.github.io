@@ -20,18 +20,18 @@
     parent = document.querySelector('.header');
 
     header = '<div class="container header__container"><div class="header__logo">';
-    header += '<a href="index.html">';
+    header += '<a href="index">';
     header += '<img src="images/logo-main.jpg" alt="First Dance Thame Logo" class="header__logo--img" />';
     header += '</a>';
     header += '</div>';
     header += '<nav class="header__nav">';
     header += '<div class="header__right">';
-    header += '<a href="about.html" class="header__nav--item">About</a>';
-    header += '<a href="classes.html" class="header__nav--item">Classes</a>';
-    header += '<a href="gallery.html" class="header__nav--item">Gallery</a>';
-    header += '<a href="timetable.html" class="header__nav--item">Timetable</a>';
-    header += '<a href="location.html" class="header__nav--item">Location</a>';
-    header += '<a href="contact.html" class="header__nav--item">Contact</a>';
+    header += '<a href="about" class="header__nav--item">About</a>';
+    header += '<a href="classes" class="header__nav--item">Classes</a>';
+    header += '<a href="gallery" class="header__nav--item">Gallery</a>';
+    header += '<a href="timetable" class="header__nav--item">Timetable</a>';
+    header += '<a href="location" class="header__nav--item">Location</a>';
+    header += '<a href="contact" class="header__nav--item">Contact</a>';
     header += '<div class="header__social">';
     header += '<a class="header__social--link" href="https://www.facebook.com/firstdancelongcrendon" target="_blank"><i class="fab fa-facebook-f"></i></a>';
     header += '<a class="header__social--link" href="mailto:firstdancethame@gmail.com"><i class="fas fa-envelope"></i></a>';
