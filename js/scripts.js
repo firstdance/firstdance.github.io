@@ -20,7 +20,7 @@
     parent = document.querySelector('.header');
 
     header = '<div class="container header__container"><div class="header__logo">';
-    header += '<a href="index">';
+    header += '<a href="/">';
     header += '<img src="images/logo-main.jpg" alt="First Dance Thame Logo" class="header__logo--img" />';
     header += '</a>';
     header += '</div>';
