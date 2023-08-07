@@ -38,7 +38,7 @@
   <!-- Bootstrap  -->
   <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/be99808d02.js" crossorigin="anonymous"></script>
-  <!--<link rel="stylesheet" href="css/styles.compiled.css"> -->
+  <link rel="stylesheet" href="css/styles.compiled.css">
   <link rel="stylesheet" href="css/styles.css">
   <!-- <link rel="shortcut icon" type="image/png" href="img/favicon.png"> -->
 </head>
@@ -94,16 +94,19 @@
       then((res) => res.json()).
       then((json) => {
         json.resources.map((resource) => {
+          console.log(resource);
           content = [...content, resource];
         });
         fetch('https://res.cloudinary.com/first-dance/video/list/show.json')
         .then((res) => res.json()).then((json) => {
           json.resources.map((resource) => { 
+            console.log(resource);
             content = [...content, resource] });
         })
         .then(() => {
           content.map(({public_id, format, version}) => {
             const t = public_id.substring(0, 3);
+            console.log(" format ", format, format != 'jpg')
             cont += '<div class="col-12 col-md-6 col-lg-4 my-3"><div class="gallery__wrap">';
             if(format == 'jpg'){
               cont += '<img class="gallery__img gallery__item" src="https://res.cloudinary.com/first-dance/image/upload/v'+version+'/'+public_id+'.'+format+'" alt="'+public_id+'" />';
