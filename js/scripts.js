@@ -21,7 +21,7 @@
 
     header = '<div class="container header__container"><div class="header__logo">';
     header += '<a href="/">';
-    header += '<img src="images/logo-main.jpg" alt="First Dance Thame Logo" class="header__logo--img" />';
+    header += '<img src="images/logo-main.png" alt="First Dance Thame Logo" class="header__logo--img" />';
     header += '</a>';
     header += '</div>';
     header += '<nav class="header__nav">';
